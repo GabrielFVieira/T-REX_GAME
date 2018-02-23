@@ -1,0 +1,543 @@
+fileFormatVersion: 2
+guid: 1ceb5d4c2f5ced9468233f2bffa53ada
+timeCreated: 1519346373
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: T-REX_0
+    21300002: T-REX_1
+    21300004: T-REX_2
+    21300006: T-REX_3
+    21300008: T-REX_4
+    21300010: T-REX_5
+    21300012: T-REX_6
+    21300014: T-REX_7
+    21300016: T-REX_8
+    21300018: T-REX_9
+    21300020: T-REX_10
+    21300022: T-REX_11
+    21300024: T-REX_12
+    21300026: T-REX_13
+    21300028: T-REX_14
+    21300030: T-REX_15
+    21300032: T-REX_16
+    21300034: T-REX_17
+    21300036: T-REX_18
+    21300038: T-REX_19
+    21300040: T-REX_20
+    21300042: T-REX_21
+    21300044: T-REX_22
+    21300046: T-REX_23
+    21300048: T-REX_24
+    21300050: T-REX_25
+    21300052: T-REX_26
+    21300054: T-REX_27
+    21300056: T-REX_28
+    21300058: T-REX_29
+    21300060: T-REX_30
+    21300062: T-REX_31
+    21300064: T-REX_32
+    21300066: T-REX_33
+    21300068: T-REX_34
+    21300070: T-REX_35
+    21300072: T-REX_36
+    21300074: T-REX_37
+    21300076: T-REX_38
+    21300078: T-REX_39
+    21300080: T-REX_40
+    21300082: T-REX_41
+    21300084: T-REX_42
+    21300086: T-REX_43
+    21300088: T-REX_44
+    21300090: T-REX_45
+    21300092: T-REX_46
+    21300094: T-REX_47
+    21300096: T-REX_48
+    21300098: T-REX_49
+    21300100: T-REX_50
+    21300102: T-REX_51
+    21300104: T-REX_52
+    21300106: T-REX_53
+    21300108: T-REX_54
+    21300110: T-REX_55
+    21300112: T-REX_56
+    21300114: T-REX_57
+    21300116: T-REX_58
+    21300118: T-REX_59
+    21300120: T-REX_60
+    21300122: T-REX_61
+    21300124: T-REX_62
+    21300126: T-REX_63
+    21300128: T-REX_64
+    21300130: T-REX_65
+    21300132: T-REX_66
+    21300134: T-REX_67
+    21300136: T-REX_68
+    21300138: T-REX_69
+    21300140: T-REX_70
+    21300142: T-REX_71
+    21300144: T-REX_72
+    21300146: T-REX_73
+    21300148: T-REX_74
+    21300150: T-REX_75
+    21300152: T-REX_76
+    21300154: T-REX_77
+    21300156: T-REX_78
+    21300158: T-REX_79
+    21300160: T-REX_80
+    21300162: T-REX_81
+    21300164: T-REX_82
+    21300166: T-REX_83
+    21300168: T-REX_84
+    21300170: T-REX_85
+    21300172: T-REX_86
+    21300174: T-REX_87
+    21300176: T-REX_88
+    21300178: T-REX_89
+    21300180: T-REX_90
+    21300182: T-REX_91
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: T-REX_15
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 265
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_28
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 202
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_29
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 201
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_41
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 190
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_42
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 190
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_43
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 190
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_44
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 184
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_53
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 126
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_54
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 126
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_57
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 142
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 100
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_62
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 110
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_63
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_64
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_65
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 97
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_66
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 97
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_74
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_75
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 55
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 10
+        width: 544
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_84
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 32
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_85
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 34
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_90
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 245
+        width: 84
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_91
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 232
+        width: 83
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 190
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 143
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: T-REX_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 15
+        width: 544
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
