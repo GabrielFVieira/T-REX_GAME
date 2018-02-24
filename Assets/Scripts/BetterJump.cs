@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BetterJump : MonoBehaviour {
     public float fallVel = 2.5f;
-    public float lowJump = 2f;
+    private float lowJump = 2f;
 
     Rigidbody2D rb;
     // Use this for initialization

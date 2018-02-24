@@ -14,15 +14,17 @@ public class SpawnObjects : MonoBehaviour {
 	private float timer;
 	private float timerRocks;
     private float timerClouds;
-    private int maxTimer;
+    private int index;
     private float maxTimerRocks;
     private float maxTimerClouds;
 
     [SerializeField]
-    private float[] maxTimers;
+    public float[] maxTimers;
+
+    public bool Pterodactiles;
 	// Use this for initialization
 	void Start () {
-        maxTimer = 0;
+        index = 0;
 
         maxTimerRocks = Mathf.FloorToInt(Random.Range(3, 6));
 
@@ -34,11 +36,34 @@ public class SpawnObjects : MonoBehaviour {
 		timer += Time.deltaTime;
 		timerRocks += Time.deltaTime;
         timerClouds += Time.deltaTime;
+        /*
+        if(GetComponent<Score>().stopTimer > 2.5f)
+        {
+            for(int i = 0; i < maxTimers.Length; i++)
+            {
+                if (maxTimers[i] > 0.2f)
+                    maxTimers[i] -= 0.1f;
+            }
+        }*/
 
-		if(timer > maxTimers[maxTimer])
+		if(timer > maxTimers[index])
 		{
-			GameObject obstacle1 = Instantiate(obstacle[Mathf.FloorToInt(Random.Range(0, obstacle.Length))]) as GameObject;
-            maxTimer = Mathf.FloorToInt(Random.Range(0, maxTimers.Length));
+            if (index == maxTimers.Length - 1 && Pterodactiles)
+            {
+                GameObject obstacle1 = Instantiate(obstacle[obstacle.Length - 1]) as GameObject;
+            }
+
+            else
+            {
+                GameObject obstacle1 = Instantiate(obstacle[Mathf.FloorToInt(Random.Range(0, obstacle.Length - 1))]) as GameObject;
+            }
+
+            if(Pterodactiles == false)
+                index = Mathf.FloorToInt(Random.Range(0, maxTimers.Length - 1));
+
+            else
+                index = Mathf.FloorToInt(Random.Range(0, maxTimers.Length));
+
             timer = 0;
 		}
 		

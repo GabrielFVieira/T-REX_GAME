@@ -9,15 +9,15 @@ public class Scrolling : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		startPos = 22.4f;
-		vel = 4.5f;
+		vel = 8f;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(vel < 9)
+		/*if(vel < 9)
 		{
 			vel += Time.deltaTime * 0.4f;
-		}
+		}*/
 		
 		
 		transform.Translate (-vel * Time.deltaTime, 0, 0);

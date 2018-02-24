@@ -11,7 +11,10 @@ public class ObstacleMove : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(transform.position.y >= -1)
+        if(transform.position.y > -3.5f && transform.position.y < -1)
+            transform.Translate(-scroll.vel * 1.3f * Time.deltaTime, 0, 0);
+
+        else if(transform.position.y >= -1)
             transform.Translate(-scroll.vel * 0.3f *Time.deltaTime, 0, 0);
 
         else

@@ -17,8 +17,9 @@ public class TRexMoves : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
+        Cursor.visible = false;
         button.SetActive(false);
-        jumpVel = 5.5f;
+        jumpVel = 8.5f;
         Time.timeScale = 1;
         GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
@@ -59,6 +60,7 @@ public class TRexMoves : MonoBehaviour {
 		
 		if(col.gameObject.tag == "Obstacle")
         {
+            Cursor.visible = true;
 			button.gameObject.SetActive(true);
             GetComponent<Animator>().enabled = false;
             GetComponent<SpriteRenderer>().sprite = dead;
