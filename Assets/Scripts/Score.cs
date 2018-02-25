@@ -109,7 +109,7 @@ public class Score : MonoBehaviour {
                             GetComponent<SpawnObjects>().maxTimers[i] = 0.35f;
                     }
 
-                    GameObject.FindGameObjectWithTag("Player").GetComponent<BetterJump>().fallVel += 0.4f;
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<BetterJump>().fallVel += 0.9f;
                 }
 
                 score.enabled = true;
